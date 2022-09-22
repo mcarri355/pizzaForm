@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Form Project</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <!-- User Info -->
+            <legend>User Information</legend>
+            <p>
+            <ul>
+                <li><label for="text">Username:</label>
+                <input type="info1" required></li>
+                <br>
+                <li><label for="info2">Password:</label>
+                <input type="password" required></li>
+                <br>
+                <li><label for="info3">Address:</label>
+                <input type="text" required></li>
+                <br>
+                <li><label for="info3">Email(optional):</label>
+                <input type="email"></li>
+                <br>
+                <li><label for="info3">Phone Number(optional):</label>
+                <input type="tel required"></li>
+
+            </ul>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <!-- Drink Order -->
+            <legend>What Drink Do You Want?</legend>
+            <p>
+                <ul>
+                    <li><input type="radio" name="drink">
+                    <label for="drink1" required>Pepsi</label>
+                    <li><input type="radio" name="drink">
+                    <label for="drink2" required>Coke</label></li>
+                    <li><input type="radio" name="drink">
+                    <label for="drink3" required>Cherry Coke</label></li>
+                    <li><input type="radio" name="drink">
+                    <label for="drink4" required>Mountain Dew</label></li>
+                    <li><input type="radio" name="drink">
+                    <label for="drink5" required>Root Beer</label></li>
+                    <li><input type="radio" name="drink">
+                    <label for="drink6" required>Sprite</label></li>
+                    <li><input type="radio" name="drink">
+                    <label for="drink7" required>Lemonade</label></li>
+                    <li><input type="radio" name="drink">
+                    <label for="drink8" required>Water</label></li>
+                    <li><input type="radio" name="drink">
+                    <label for="drink8" required>None</label></li>
+                </ul>
+            </p>
+
+            <!-- Size Of Drink -->
+            <legend>What Size Do You Want?</legend>
+            <p>
+                <ul>
+                    <li><input type="radio" name="size">
+                    <label for="size1" required>$1.25-Small (16oz)</label> </li>
+                    <li><input type="radio" name="size">
+                    <label for="size2" required>$1.75Medium (24oz)</label> </li>
+                    <li><input type="radio" name="size">
+                    <label for="size3" required>$2.25-Large (28oz)</label></li>
+                    <li><input type="radio" name="size">
+                    <label for="size4" required>$2.75-XL (32oz)</label></li>
+                </ul>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <!-- Pizza Topping Selection -->
+            <legend>Pizza Toppings</legend>
+            <p>
+                First 5 Topping Free! Every topping after that costs $.50
+                <ul>
+                    <li><input type="checkbox">
+                    <label for="Toppings1">Pepperoni</label></li>
+                    <li><input type="checkbox">
+                    <label for="Toppings2">Mushroom</label></li>
+                    <li><input type="checkbox">
+                    <label for="Toppings3">Sausage</label></li>
+                    <li><input type="checkbox">
+                    <label for="Toppings4">Black Olives</label></li>
+                    <li><input type="checkbox">
+                    <label for="Toppings5">Pineapple</label></li>
+                    <li><input type="checkbox">
+                    <label for="Toppings6">Onions</label></li>
+                    <li><input type="checkbox">
+                    <label for="Toppings7">Jalapenos</label></li>
+                    <li><input type="checkbox">
+                    <label for="Toppings8">Bell Peppers</label></li>
+                    <li><input type="checkbox">
+                    <label for="Toppings9">Basil</label></li>
+                    <li><input type="checkbox">
+                    <label for="Toppings10">Tomatoes</label></li>
+                </ul>
+            </p>
+        </fieldset>
+        <fieldset>
+            <!-- Side Selection -->
+            <legend>Sides</legend>
+            <p>
+            <ul>
+                <li><input type="checkbox">
+                <label for="side1">$3.50-Mozzarella Sticks</label></li>
+                <li><input type="checkbox">
+                <label for="side2">$2.75-Breadsticks</label></li>
+                <li><input type="checkbox">
+                <label for="side3">$1.75-French Fries</label></li>
+            </ul>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Desserts</legend>
+            <p>
+                <ul>
+                    <li><input type="radio" name="dessert">
+                    <label for="dessert1">$3.75-Chocolate Chip Cookies (3)</label></li>
+                    <li><input type="radio" name="dessert">
+                    <label for="dessert2">$4.25-Cinnamon Sticks</label></li>
+                    <li><input type="radio" name="dessert">
+                    <label for="dessert3">$4.15Chocolate Brownies (3)</label></li>
+                </ul>
+            </p>
+        </fieldset>
+        <fieldset>
+            <!-- Special Instructions -->
+            <legend>Special Instructions</legend>
+            <p>
+                <ul>
+                    <li>Speical Instructions:</li>
+                </ul>
+                <textarea name="special instructions" id="special instructions" cols="40" rows="10"></textarea>
+            </p>
+            <button type="submit">Submit Order</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
